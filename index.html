@@ -35,13 +35,14 @@
                 <div class="mobile-inner3 common-mobile ">
                     <div class="tasks">
                         <div class="tasks-upp">
-                            <select class="type-task">
-                                <option value="">Personal</option>
-                                <option value="">Works</option>
-                                <option value="">Finance</option>
-                                <option value="">Health</option>
-                                <option value="">Family</option>
-                                <option value="">Education</option>
+                            <select onchange="changeSelect()" class="type-task">
+                                <option selected value="">Select Task Type</option>
+                                <option value="Personal">Personal</option>
+                                <option value="Works">Works</option>
+                                <option value="Finance">Finance</option>
+                                <option value="Health">Health</option>
+                                <option value="Family">Family</option>
+                                <option value="Education">Education</option>
                             </select>
                             <button class="close">
                                 <img src="close.png" alt="Click Button" style="width: 31px; height: auto;">
@@ -49,6 +50,16 @@
                         </div>
                         <input class="input" type="text">
                         <button class="add">+ ADD</button>
+                    </div>
+                </div>
+                <div class="mobile-inner4">
+                    <div style="height: fit-content;">
+                        <button class="close1">
+                            <img src="close.png" alt="Click Button" style="width: 31px; height: auto;">
+                        </button>
+                    </div>
+                    <div class="open-tasks">
+
                     </div>
                 </div>
 
