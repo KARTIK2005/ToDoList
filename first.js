@@ -33,13 +33,13 @@ function homeScreenCount() {
   })
 }
 homeScreenCount()
-// let name = prompt("Enter your fist name")
-// console.log(name);
-// if (name === null) {
-//   name = prompt("Enter your fist name")
-// } else {
-//   namep.innerText = `${name}`
-// }
+ let name = prompt("Enter your fist name")
+ console.log(name);
+ if (name === null) {
+   name = prompt("Enter your fist name")
+ } else {
+   namep.innerText = `${name}`
+ }
 btn1.addEventListener("click", () => {
   console.log("h")
   screen1.style.translate = " 0 -100% "
