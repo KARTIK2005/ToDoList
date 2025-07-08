@@ -190,7 +190,34 @@
   border-radius: 10px;
   font-size: 16px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  overflow-wrap: break-word;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.mobile-inner4{
+    position: absolute;
+    top: 2%;
+    left: 1.5%;
+    height: 96%;
+    width: 96%;
+    z-index: 92;
+    display: none;
+    background-color: white;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+   border-radius: 10px;
+    
+}
+.close1{
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+.open-tasks{
+    height: 100%;
+    overflow: auto;
+    padding-left:10px ;
 }
 @media (max-width: 672px){
 .mobile{
