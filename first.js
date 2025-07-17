@@ -33,10 +33,10 @@ function homeScreenCount() {
   })
 }
 homeScreenCount()
- let name = prompt("Enter your fist name")
+ let name = prompt("Enter your first name")
  console.log(name);
  if (name === null) {
-   name = prompt("Enter your fist name")
+   name = prompt("Enter your first name")
  } else {
    namep.innerText = `${name}`
  }
